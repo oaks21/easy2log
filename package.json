@@ -1,0 +1,32 @@
+{
+  "name": "easy2log",
+  "version": "1.0.0",
+  "description": "Simple colored logger with better performance using fs.appendFile.",
+  "main": "easy2log.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oaks21/easy2log.git"
+  },
+  "keywords": [
+    "logger",
+    "fs",
+    "log",
+    "color",
+    "simple"
+  ],
+  "author": "oaks21",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oaks21/easy2log/issues"
+  },
+  "homepage": "https://github.com/oaks21/easy2log",
+  "dependencies": {
+    "cli-color": "^1.4.0",
+    "dateformat": "^3.0.3",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
